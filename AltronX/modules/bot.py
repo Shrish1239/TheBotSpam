@@ -18,7 +18,7 @@ from telethon import events
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
 async def ping(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply("✰  𝐏𝐨𝐧𝐠  ✰\n\n«• 𝐇𝐢𝐭𝐥𝐞𝐫  𝐗  𝐒𝐩𝐚𝐦 •»", parse_mode=None, link_preview=None)
+        await e.reply("✰  𝐏𝐨𝐧𝐠  ✰\n\n«• ᴡᴀɴᴅᴇʀɪɴɢ x sᴘᴀᴍ •»", parse_mode=None, link_preview=None)
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
