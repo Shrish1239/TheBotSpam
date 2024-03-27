@@ -8,11 +8,11 @@ PythonButton = [
         Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
         ],
         [
-        Button.url("• ɢʀᴏᴜᴘ •", "https://t.me/MYSTERIOUS_BDY"),
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/TheAltron")
+        Button.url("• ɢʀᴏᴜᴘ •", "https://t.me/sudeokeliyeaajaobclog"),
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/sudeokeliyeaajaobclog")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/mysteriousxhitler/TheBotSpam")
+        Button.url("• ʀᴇᴘᴏ •", "chla jaa rande ke bacche xd")
         ]
         ]
 
@@ -34,12 +34,12 @@ async def start(event):
         BotName = AltBot.first_name
         BotId = AltBot.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{BotName}](tg://user?id={BotId})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴏᴡɴᴇʀ : [𝐇ɪᴛʟᴇʀ](https://t.me/MY5T3R10U5_X_HITLER)**\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [𝐏ʏᴛʜᴏɴ](https://t.me/ItzExStar)**\n"
+        TEXT += f"» **ᴍʏ ᴏᴡɴᴇʀ : [𝚆𝙰𝙽𝙳𝙴𝚁𝙸𝙽𝙶](https://t.me/Homosapienhu)**\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [𝚆𝙰𝙽𝙳𝙴𝚁𝙸𝙽𝙶](https://t.me/Homosapienhu)**\n"
         TEXT += f"» **ʙᴏᴛ ꜱᴘᴀᴍ ᴠᴇʀsɪᴏɴ :** `M3.1`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{telethon.__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                 event.chat_id,
-                "https://te.legra.ph/file/9c3991027a851d484b75c.jpg",
+                "https://telegra.ph/file/85bfd8203a929e3521a14.jpg",
                 caption=TEXT, 
                 buttons=PythonButton)
