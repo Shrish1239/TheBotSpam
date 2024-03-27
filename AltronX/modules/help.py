@@ -2,7 +2,7 @@ from config import MK1, MK2, MK3, MK4, MK5, MK6, MK7, MK8, MK9, MK10, SUDO_USERS
 from telethon import events, Button
 
 
-PythonHelp = f"★ 𝙏𝙝𝙚𝘽𝙤𝙩𝙎𝙥𝙖𝙢 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴍʏ ᴏᴡɴᴇʀ : [𝐇ɪᴛʟᴇʀ](https://t.me/MY5T3R10U5_X_HITLER)**\n» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [𝐏ʏᴛʜᴏɴ](https://t.me/ItzExStar)**"
+PythonHelp = f"★ ᴡᴀɴᴅᴇʀɪɴɢ x sᴘᴀᴍ ʜᴇʟᴘ ᴍᴇɴᴜ ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴍʏ ᴏᴡɴᴇʀ : [𝚆𝙰𝙽𝙳𝙴𝚁𝙸𝙽𝙶](https://t.me/Homosapienhu)**\n» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [𝚆𝙰𝙽𝙳𝙴𝚁𝙸𝙽𝙶](https://t.me/Homosapienhu)**"
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
@@ -18,7 +18,7 @@ PythonHelp = f"★ 𝙏𝙝𝙚𝘽𝙤𝙩𝙎𝙥𝙖𝙢 𝙃𝙚𝙡𝙥 �
 async def help(event):
     if event.sender_id in SUDO_USERS:
        await event.client.send_file(event.chat_id,
-                                  "https://te.legra.ph/file/9c3991027a851d484b75c.jpg",
+                                  "https://telegra.ph/file/85bfd8203a929e3521a14.jpg",
                                   caption=PythonHelp,
                                   buttons=[
            [
@@ -29,8 +29,8 @@ async def help(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [    
-            Button.url("• ɢʀᴏᴜᴘ •", "https://t.me/MYSTERIOUS_BDY"),
-            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/TheAltron")
+            Button.url("• ɢʀᴏᴜᴘ •", "https://t.me/sudeokeliyeaajaobclog"),
+            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/sudeokeliyeaajaobclog")
            ],
            ],
            )
@@ -54,7 +54,7 @@ extra_msg = f"""
   2) {hl}leave : Type in the Group bot will auto leave that group
 
 
-**© @ItzExStar**
+**© @homosapienhu**
 """
 
                  
@@ -86,7 +86,7 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**© @ItzExStar**
+**© @homosapienhu**
 """
 
 spam_msg = f"""
@@ -103,7 +103,7 @@ spam_msg = f"""
   1) {hl}hang <counter> (you can reply any message if you want bot to reply that message and do spamming)
 
 
-** © @ItzExStar**
+** © @homosapienhu**
 """                     
            
            
@@ -130,13 +130,13 @@ async def helpback(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [
-            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/Altron_X"),
-            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/TheAltron")
+            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/sudeokeliyeaajaobclog"),
+            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/sudeokeliyeaajaobclog")
            ],
            ],
         )           
    else:
-        await event.answer("Make Your Own Altron Bots !! @ItzExStar", cache_time=0, alert=True)
+        await event.answer("Make Your Own 𝚆𝙰𝙽𝙳𝙴𝚁𝙸𝙽𝙶 Bots !! @homosapienhu", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"spam"))
@@ -155,7 +155,7 @@ async def help_spam(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             ) 
    else:
-        await event.answer("Make Your Own Altron Bots !! @ItzExStar", cache_time=0, alert=True)
+        await event.answer("Make Your Own 𝚆𝙰𝙽𝙳𝙴𝚁𝙸𝙽𝙶 Bots !! @homosapienhu", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"raid"))
@@ -174,7 +174,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )  
      else:
-        await event.answer("Make Your Own Altron Bots !! @ItzExStar", cache_time=0, alert=True)
+        await event.answer("Make Your Own 𝚆𝙰𝙽𝙳𝙴𝚁𝙸𝙽𝙶 Bots !! @homosapienhu", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"extra"))
@@ -193,4 +193,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
    else:
-        await event.answer("Make Your Own Altron Bots !! @ItzExStar", cache_time=0, alert=True)
+        await event.answer("Make Your Own 𝚆𝙰𝙽𝙳𝙴𝚁𝙸𝙽𝙶 Bots !! @homosapienhu", cache_time=0, alert=True)
